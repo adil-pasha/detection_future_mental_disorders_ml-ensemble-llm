@@ -35,3 +35,38 @@ It serves as a powerful tool for early detection of psychological risks through 
 
 ## 🏗️ Project Structure
 
+---
+
+## 🧪 How It Works
+
+1. **User Registration & Login**  
+   Users register and log in to submit posts for analysis.
+
+2. **Data Upload & Preprocessing**  
+   Admin uploads a dataset of labeled posts. NLP preprocessing is performed.
+
+3. **Model Training**  
+   The system trains multiple ML models on the dataset and selects the best-performing model.
+
+4. **Prediction**  
+   Users input a social media message. The trained model classifies it as:
+   - **No Depression**
+   - **Depression**
+
+5. **Admin Dashboard**  
+   Admin can:
+   - View uploaded posts
+   - Analyze prediction ratios
+   - Download results
+   - View accuracy charts
+
+---
+
+## 📦 Installation & Setup
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/yourusername/social-media-as-a-mirror.git
+cd social-media-as-a-mirror
+
+
